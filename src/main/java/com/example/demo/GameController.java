@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController           // handles HTTP requests
 @RequestMapping("/api/game")
-@CrossOrigin(origins = "http://localhost:5173")  // allow React to connect
+@CrossOrigin(origins = "*")
 public class GameController {
 
     private final GameService gameService;
