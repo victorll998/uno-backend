@@ -7,7 +7,10 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController           // handles HTTP requests
 @RequestMapping("/api/game")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://uno-frontend.vercel.app"  // ← your actual Vercel URL
+})
 public class GameController {
 
     private final GameService gameService;
