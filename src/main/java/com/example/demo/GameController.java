@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/game")
 @CrossOrigin(origins = {
     "http://localhost:5173",
-    "https://uno-frontend.vercel.app"  // ← your actual Vercel URL
+    "https://uno-frontend-theta.vercel.app/"
 })
 public class GameController {
 
