@@ -50,7 +50,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.example.demo.GameApplication</mainClass>
-					<layout>JAR</layout>
                 </configuration>
             </plugin>
         </plugins>
